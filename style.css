@@ -1,0 +1,206 @@
+.navbar-nav .nav-item .nav-link{
+    margin-right: 15px;
+    font-size: 15px;
+}
+.nav_section{
+    background: #05386B !important;
+}
+.site_name
+{
+
+font-size: 30px !important;
+
+letter-spacing: 2px;
+}
+.getstart_button{
+    color: #fff !important;
+}
+.navbar-nav .btn{}
+
+/*----------/////--------------ABOUT_SECTION ------////////////////////----------- */
+
+.about_title{
+    font-size: 40px;
+    margin-top: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.about_section{
+    font-family: "Open Sans", sans-serif;
+}
+.about_section p{
+    font-size: 19px;
+}
+.double_tick
+{
+    color: skyblue;
+}
+.navbar_nav a
+{
+    color: #fff !important;
+}
+.about_button{
+    margin-top: 18px;
+}
+
+/* <!-- /////--------------ACCORDION_SECTION ------////////////////////--> */
+
+.accordion_section{
+    margin-top: 80px;
+    font-family: "Poppins", sans-serif;
+    background: aliceblue;
+    /* height: 630px; */
+    padding: 60px;
+}
+.accordion-item{
+    margin-top: 30px;
+}
+.accordion_image{
+    height: 450px;
+}
+.accordion-button{
+    font-size: 19px !important;
+    font-weight: 500;
+    padding: 20px !important;
+}
+.accordion-body{
+    font-size: 17px !important;
+}
+.skill_name
+{
+    margin-bottom: -1px;
+}
+
+/* <!-- /////--------------PROGRESS-SECTION ------////////////////////--> */
+
+.progress_section{background: #c5cbe5 !important;padding: 70px;margin-top: 100px;}
+.progress_section_row{
+    padding: 30px !important;
+}
+.progress_left{
+    padding-top: 90px;
+}
+.progress_right{
+}
+.card_title{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #123c69;
+}
+.card_text{
+    font-size: 19px !important;
+}
+.progress_block{
+    margin-top: 15px;
+}
+.skill_name{
+    font-size: 13px !important;
+    letter-spacing: 1px;
+}
+
+/* <!-- /////--------------SERVICE-SECTION ------////////////////////--> */
+
+.service_section{
+    margin-top: 70px;
+    background: aliceblue;
+}
+.service_section .service_title{
+    font-family: "Jost", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #37517e;
+}
+.service_section .service_text{
+    font-size: 20px !important;
+    font-family: "Jost", sans-serif;
+}
+.service_section .service_section_row{}
+.service_section .service_section_column{}
+.service_section .service_section_column .card_div
+{
+    transform: translateY(30px);
+    transition: transform 0.5s;
+}
+.service_section .service_section_row .service_section_column .card_div:hover
+{
+    transform: translateY(10px);
+}
+.service_section .service_section_title{
+    font-size: 23px !important;
+    color: #37517e;
+}
+.service_section .service_section_text{
+    font-size: 19px !important;
+}
+.service_section .service_section_icon{
+    font-size: 37px !important;
+    color: #37517e;
+    padding-left: 9px;
+}
+
+.service_section .service_section_row .service_section_column .card_div:hover .service_section_icon
+{
+    color: skyblue;
+}
+.service_section .service_section_row .service_section_column .card_div:hover .service_section_title
+{
+    color: skyblue;
+}
+
+  
+/* <!-- /////--------------BACKGROUND_IMAGE_SECTION ------////////////////////--> */
+.background_image_section{}
+.background_building_image{background-image: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url('./building_image_arsha.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;height: 400px;}
+.background_building_image .background_row{
+    margin-right: 0px !important;
+    
+}
+.background_building_image .background_row .background_column1{}
+.background_building_image .background_row .background_column2{}
+.background_building_image .background_title{
+    font-size: 40px !important;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: "Jost", sans-serif;
+    color: #fff;
+}
+.background_building_image .background_text{
+    font-size: 20px !important;
+    font-family: "Jost", sans-serif;
+    color: #fff;
+}
+.background_building_image .action_button{
+    font-size: 18px !important;
+    margin-top: 20px !important;
+    width: 200px;
+    display: block;
+}
+
+/* <!-- /////--------------PORTFOLIO-SECTION ------////////////////////--> */
+
+
+.portfolio_section{
+    margin-top: 70px;
+    background: aliceblue;
+}
+.portfolio_section .portfolio_title{
+    font-family: "Jost", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #37517e;
+}
+.portfolio_section .portfolio_text{
+    font-size: 20px !important;
+    font-family: "Jost", sans-serif;
+}
+.portfolio_section .portfolio_section_title{
+    font-size: 23px !important;
+    color: #37517e;
+}
+.portfolio_section .portfolio_section_text{
+    font-size: 19px !important;
+}
