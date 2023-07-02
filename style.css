@@ -46,17 +46,17 @@ letter-spacing: 2px;
 /* <!-- /////--------------ACCORDION_SECTION ------////////////////////--> */
 
 .accordion_section{
-    margin-top: 80px;
+    /* margin-top: 80px; */
     font-family: "Poppins", sans-serif;
     background: aliceblue;
     /* height: 630px; */
-    padding: 60px;
+    /* padding: 60px; */
 }
 .accordion-item{
     margin-top: 30px;
 }
 .accordion_image{
-    height: 450px;
+    /* height: 450px; */
 }
 .accordion-button{
     font-size: 19px !important;
@@ -73,7 +73,11 @@ letter-spacing: 2px;
 
 /* <!-- /////--------------PROGRESS-SECTION ------////////////////////--> */
 
-.progress_section{background: #c5cbe5 !important;padding: 70px;margin-top: 100px;}
+.progress_section{
+    background: #c5cbe5 !important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 100px;}
 .progress_section_row{
     padding: 30px !important;
 }
@@ -204,3 +208,5 @@ letter-spacing: 2px;
 .portfolio_section .portfolio_section_text{
     font-size: 19px !important;
 }
+
+
